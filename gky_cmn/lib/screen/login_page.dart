@@ -1,8 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:gky_cmn/font.dart';
-import 'package:gky_cmn/sizes/sizes_helpers.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import '../login-widgets/export_widgets.dart';
+import '../std_lib.dart';
+import '../login-widgets/export_login_widgets.dart';
 
 // ignore: use_key_in_widget_constructors
 class LoginPage extends StatefulWidget {
@@ -14,6 +11,8 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     final _height = displayHeight(context);
+
+//================ constructing widget =================
 
     final logo = Row(mainAxisAlignment: MainAxisAlignment.center, children: [
       Image.asset('assets/logo-gky.png', height: _height * 0.3),
@@ -27,33 +26,52 @@ class _LoginPageState extends State<LoginPage> {
       inputAction: TextInputAction.next,
     );
 
-    // ignore: prefer_const_constructors
-    final password = PasswordInput(
-      icon: FontAwesomeIcons.lock,
-      hint: 'Password',
-      inputAction: TextInputAction.done,
-    );
-
-    // ignore: prefer_const_constructors
     final loginBtn = RoundedButton(
       buttonText: 'Login',
+      onclick: () => loginEmail(email.getInput()),
     );
 
-    final orSeparator = Row(mainAxisAlignment: MainAxisAlignment.center,
-        // ignore: prefer_const_literals_to_create_immutables
-        children: [const Text('OR', style: kBodyText)]);
+    final orSeparator =
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+      Expanded(
+        child: Container(
+            margin: const EdgeInsets.only(left: 10.0, right: 15.0),
+            child: const Divider(
+              color: Colors.white,
+              height: 50,
+            )),
+      ),
+      const Text('OR', style: kBodyText),
+      Expanded(
+        child: Container(
+            margin: const EdgeInsets.only(left: 15.0, right: 10.0),
+            child: const Divider(
+              color: Colors.white,
+              height: 50,
+            )),
+      ),
+    ]);
 
     // ignore: prefer_const_constructors
     final googleSignIn = SignInLogoButton(
-        path: 'assets/logo-google.png', widthNum: 55, paddingNum: 5);
+        path: 'assets/logo-google.png',
+        widthNum: 55,
+        paddingNum: 5,
+        onclick: () => loginGmail());
 
     // ignore: prefer_const_constructors
     final huaweiSignIn = SignInLogoButton(
-        path: 'assets/logo-huawei.png', widthNum: 55, paddingNum: 10);
+        path: 'assets/logo-huawei.png',
+        widthNum: 55,
+        paddingNum: 10,
+        onclick: () => loginHMS());
 
     // ignore: prefer_const_constructors
     final appleSignIn = SignInLogoButton(
-        path: 'assets/logo-apple.png', widthNum: 50, paddingNum: 5);
+        path: 'assets/logo-apple.png',
+        widthNum: 50,
+        paddingNum: 5,
+        onclick: () => loginIOS());
 
     final signInLogoButtonGroup = Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -76,8 +94,8 @@ class _LoginPageState extends State<LoginPage> {
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 children: [
                   email,
-                  password,
                   SizedBox(height: _height * 0.02),
+                  // loginBtn,
                   loginBtn,
                   SizedBox(height: _height * 0.05),
                   orSeparator,
@@ -91,4 +109,12 @@ class _LoginPageState extends State<LoginPage> {
       ],
     );
   }
+
+  loginEmail(String email) => {
+        // http response
+        print(email)
+      };
+  loginGmail() => {};
+  loginHMS() => {};
+  loginIOS() => {};
 }

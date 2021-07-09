@@ -11,3 +11,8 @@ const TextStyle kBodyText = TextStyle(
   fontSize: 15,
   color: Colors.white,
 );
+
+const TextStyle kBodyTextBlack = TextStyle(
+  fontSize: 15,
+  color: Colors.black,
+);

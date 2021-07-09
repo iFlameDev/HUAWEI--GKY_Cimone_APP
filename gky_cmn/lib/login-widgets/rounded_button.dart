@@ -4,10 +4,9 @@ import '../font.dart';
 
 class RoundedButton extends StatelessWidget {
   // ignore: use_key_in_widget_constructors
-  const RoundedButton({
-    required this.buttonText,
-  });
+  const RoundedButton({required this.buttonText, required this.onclick});
 
+  final VoidCallback onclick;
   final String buttonText;
 
   @override
@@ -19,7 +18,7 @@ class RoundedButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
       ),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () => onclick(),
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10.0),
           child: Text(

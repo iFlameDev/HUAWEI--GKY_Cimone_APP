@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gky_cmn/std_lib.dart';
 
 const TextStyle kHeading = TextStyle(
   fontSize: 20,
@@ -12,7 +13,5 @@ const TextStyle kBodyText = TextStyle(
   color: Colors.white,
 );
 
-const TextStyle kBodyTextBlack = TextStyle(
-  fontSize: 15,
-  color: Colors.black,
-);
+const TextStyle kBodyTextBlack =
+    TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.normal);

@@ -57,7 +57,6 @@ class _TextInputState extends State<TextInput> {
           prefixIcon: icon,
           hintStyle: kBodyTextBlack,
         ),
-        // maxLines: widget.maxLines,
         style: kBodyTextBlack,
         keyboardType: widget.inputType,
         textInputAction: widget.inputAction,

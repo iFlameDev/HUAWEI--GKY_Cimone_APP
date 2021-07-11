@@ -1,10 +1,11 @@
+// @dart=2.9
+
 import 'package:flutter/material.dart';
 import 'screen/login_page.dart';
-import 'screen/register_page.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: RegisterPage(),
+    home: LoginPage(),
   ));
 }
 

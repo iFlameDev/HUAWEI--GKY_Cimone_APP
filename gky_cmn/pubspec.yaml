@@ -32,6 +32,9 @@ dependencies:
   flutter_signin_button: ^2.0.0
   agconnect_auth: ^1.1.0
   agconnect_core: ^1.1.0
+  provider: ^4.3.1
+  validators: ^3.0.0
+  datetime_picker_formfield: ^2.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -89,3 +92,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+http: ^0.12.1
+shared_preferences: ^0.5.8

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "942715534489",
+    "project_id": "gky-cimone-app",
+    "storage_bucket": "gky-cimone-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942715534489:android:e74b8b389e822836f74c08",
+        "android_client_info": {
+          "package_name": "com.gky_cmn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942715534489-bm11l7mqaasldku732npdn2ln49lie0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gky_cmn",
+            "certificate_hash": "09dd953e3ca2d715906610649569a788ab7ea272"
+          }
+        },
+        {
+          "client_id": "942715534489-ga7lm29ai5spajr4ndu2m3ddi2m6jlcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEH05Lkn3EYjCcz8WaPOzVWyJ6IkL2TAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942715534489-ga7lm29ai5spajr4ndu2m3ddi2m6jlcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

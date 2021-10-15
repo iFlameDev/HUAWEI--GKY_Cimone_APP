@@ -1,0 +1,776 @@
+# The proguard configuration file for the following section is C:\Flutter_src\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
+# Build the ephemeral app in a module project.
+# Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**
+# This is due to plugins (libraries) depending on the embedding (the program jar)
+-dontwarn io.flutter.plugin.**
+
+# The android.** package is provided by the OS at runtime.
+-dontwarn android.**
+
+# End of content from C:\Flutter_src\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
+# The proguard configuration file for the following section is D:\GKY Cimone APP\gky_cmn\android\app\proguard-rules.pro
+# Add project specific ProGuard rules here.
+# You can control the set of applied configuration files using the
+# proguardFiles setting in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# Uncomment this to preserve the line number information for
+# debugging stack traces.
+#-keepattributes SourceFile,LineNumberTable
+
+# If you keep the line number information, uncomment this to
+# hide the original source file name.
+#-renamesourcefileattribute SourceFile
+
+#####################################################################################
+##################################### START##########################################
+
+-keepattributes InnerClasses
+
+# End of content from D:\GKY Cimone APP\gky_cmn\android\app\proguard-rules.pro
+# The proguard configuration file for the following section is D:\GKY Cimone APP\gky_cmn\android\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
+-keep class com.gky_cmn.MainActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService { <init>(); }
+-keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
+-keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class com.huawei.agconnect.core.ServiceDiscovery { <init>(); }
+-keep class com.huawei.agconnect.core.provider.AGConnectInitializeProvider { <init>(); }
+-keep class com.huawei.hms.aaid.InitProvider { <init>(); }
+-keep class com.huawei.hms.activity.BridgeActivity { <init>(); }
+-keep class com.huawei.hms.activity.EnableServiceActivity { <init>(); }
+-keep class com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver { <init>(); }
+-keep class com.huawei.hms.flutter.scan.customizedview.CustomizedViewActivity { <init>(); }
+-keep class com.huawei.hms.flutter.scan.multiprocessor.MultiProcessorActivity { <init>(); }
+-keep class com.huawei.hms.hmsscankit.ScanKitActivity { <init>(); }
+-keep class com.huawei.hms.mlsdk.common.provider.MLInitializerProvider { <init>(); }
+-keep class com.huawei.hms.update.provider.UpdateProvider { <init>(); }
+-keep class com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider { <init>(); }
+-keep class com.huawei.updatesdk.service.otaupdate.AppUpdateActivity { <init>(); }
+-keep class com.huawei.updatesdk.support.pm.PackageInstallerActivity { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.huawei.hms.flutter.scan.multiprocessor.ScanResultView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.huawei.hms.scankit.ViewfinderView { <init>(android.content.Context, android.util.AttributeSet); }
+
+
+# End of content from D:\GKY Cimone APP\gky_cmn\android\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\proguard.txt
+-dontwarn com.google.appengine.api.**
+-dontwarn okio.**
+-dontwarn org.apache.**
+-dontwarn retrofit.android.**
+-dontwarn retrofit.appengine.**
+-dontwarn retrofit.client.**
+-dontwarn rx.**
+
+# This is necessary for keeping SecureTokenHttpApi and IdentityToolkitHttpApi
+# Otherwise those classes get stripped out, as they are only being used
+# reflectively.
+
+-keepclasseswithmembernames interface * {
+    @retrofit.http.* <methods>;
+}
+
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.firebase-auth-api.zzzw {
+  <fields>;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\proguard.txt
+# Can be removed once we pull in a dependency on firebase-common that includes
+# https://github.com/firebase/firebase-android-sdk/pull/1472/commits/856f1ca1151cdd88679bbc778892f23dfa34fc06#diff-a2ed34b5a38b4c6c686b09e54865eb48
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjz {
+  <fields>;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d6fee9c020913099ebb649eb369398f2\jetified-firebase-auth-interop-20.0.0\proguard.txt
+# Can be removed once we pull in a dependency on firebase-common that includes
+# https://github.com/firebase/firebase-android-sdk/pull/1472/commits/856f1ca1151cdd88679bbc778892f23dfa34fc06#diff-a2ed34b5a38b4c6c686b09e54865eb48
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d6fee9c020913099ebb649eb369398f2\jetified-firebase-auth-interop-20.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\proguard.txt
+-dontwarn com.google.firebase.platforminfo.KotlinDetector
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\proguard.txt
+-keep class com.huawei.hianalytics.**{*;}
+-dontwarn com.huawei.hianalytics.**
+-keep class com.huawei.updatesdk.**{*;}
+-dontwarn com.huawei.updatesdk.**
+-keep class com.huawei.hms.feature.**{*;}
+-dontwarn com.huawei.hms.feature.**
+-keep class com.huawei.hms.hmsscankit.**{*;}
+-dontwarn com.huawei.hms.hmsscankit.**
+-keep class com.huawei.hms.scankit.**{*;}
+-dontwarn com.huawei.hms.scankit.**
+-keep class com.huawei.hms.ml.**{*;}
+-dontwarn com.huawei.hms.ml.**
+-keep class com.huawei.hms.mlsdk.**{*;}
+-dontwarn com.huawei.hms.mlsdk.**
+-keep class com.huawei.hms.mlkit.**{*;}
+-dontwarn com.huawei.hms.mlkit.**
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\proguard.txt
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep class com.huawei.hms.analytics.**{*;}
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+#openness
+-keep interface com.huawei.hms.analytics.type.HAEventType{
+    *;
+}
+-keep interface com.huawei.hms.analytics.type.HAParamType{
+    *;
+}
+-keep class com.huawei.hms.analytics.HiAnalyticsTools{
+        public static void enableLog();
+        public static void enableLog(int);
+}
+-keep class com.huawei.hms.analytics.type.HAUserProfileType{
+    *;
+}
+
+-keep class com.huawei.hms.analytics.HiAnalyticsInstance{
+    *;
+}
+
+-keep class com.huawei.hms.analytics.HiAnalytics{
+    *;
+}
+-keep enum com.huawei.hms.analytics.type.ReportPolicy{
+    *;
+}
+-keep class com.huawei.hms.analytics.internal.filter.EventFilter{
+    public void logFilteredEvent(java.lang.String, android.os.Bundle);
+    public java.lang.String getUserProfile(java.lang.String);
+}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e4bb0265640624f39a1c5ecffc1915f\appcompat-1.1.0\proguard.txt
+# Copyright (C) 2018 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Ensure that reflectively-loaded inflater is not obfuscated. This can be
+# removed when we stop supporting AAPT1 builds.
+-keepnames class androidx.appcompat.app.AppCompatViewInflater
+
+# aapt is not able to read app::actionViewClass and app:actionProviderClass to produce proguard
+# keep rules. Add a commonly used SearchView to the keep list until b/109831488 is resolved.
+-keep class androidx.appcompat.widget.SearchView { <init>(...); }
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e4bb0265640624f39a1c5ecffc1915f\appcompat-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\proguard.txt
+# b/35135904 Ensure that proguard will not strip the mResultGuardian.
+-keepclassmembers class com.google.android.gms.common.api.internal.BasePendingResult {
+  com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjz {
+  <fields>;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b9978b06c5050a09b59d5903287795ce\jetified-play-services-measurement-sdk-19.0.1\proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjz {
+  <fields>;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b9978b06c5050a09b59d5903287795ce\jetified-play-services-measurement-sdk-19.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjz {
+  <fields>;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjz {
+  <fields>;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ab058421308588e5e42e59834e86b803\jetified-play-services-measurement-base-19.0.1\proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjz {
+  <fields>;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ab058421308588e5e42e59834e86b803\jetified-play-services-measurement-base-19.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\proguard.txt
+# Proguard flags for consumers of the Google Play services SDK
+# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project
+
+# Keep SafeParcelable NULL value, needed for reflection by DowngradeableSafeParcel
+-keepclassmembers public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are
+# found via reflection.
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * implements android.os.Parcelable {
+  public static final *** CREATOR;
+}
+
+# Keep the classes/members we need for client functionality.
+-keep @interface android.support.annotation.Keep
+-keep @android.support.annotation.Keep class *
+-keepclasseswithmembers class * {
+  @android.support.annotation.Keep <fields>;
+}
+-keepclasseswithmembers class * {
+  @android.support.annotation.Keep <methods>;
+}
+
+# Keep androidX equivalent of above android.support to allow Jetification.
+-keep @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class *
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <fields>;
+}
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <methods>;
+}
+
+# Keep the names of classes/members we need for client functionality.
+-keep @interface com.google.android.gms.common.annotation.KeepName
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+  @com.google.android.gms.common.annotation.KeepName *;
+}
+
+# Keep Dynamite API entry points
+-keep @interface com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+  public <fields>;
+  public <methods>;
+}
+
+# Needed when building against pre-Marshmallow SDK.
+-dontwarn android.security.NetworkSecurityPolicy
+
+# Needed when building against Marshmallow SDK.
+-dontwarn android.app.Notification
+
+# Protobuf has references not on the Android boot classpath
+-dontwarn sun.misc.Unsafe
+-dontwarn libcore.io.Memory
+
+# Internal Google annotations for generating Proguard keep rules.
+-dontwarn com.google.android.apps.common.proguard.UsedBy*
+
+# Annotations referenced by the SDK but whose definitions are contained in
+# non-required dependencies.
+-dontwarn javax.annotation.**
+-dontwarn org.checkerframework.**
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\87e7fb5537376a00c2f46f50bff03719\vectordrawable-animated-1.1.0\proguard.txt
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# keep setters in VectorDrawables so that animations can still work.
+-keepclassmembers class androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$* {
+   void set*(***);
+   *** get*();
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\87e7fb5537376a00c2f46f50bff03719\vectordrawable-animated-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c838bd8b628b7f5d180b0fca2940ef91\coordinatorlayout-1.0.0\proguard.txt
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# CoordinatorLayout resolves the behaviors of its child components with reflection.
+-keep public class * extends androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior {
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>();
+}
+
+# Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
+-keepattributes *Annotation*
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c838bd8b628b7f5d180b0fca2940ef91\coordinatorlayout-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\proguard.txt
+# aapt2 is not (yet) keeping FQCNs defined in the appComponentFactory <application> attribute
+-keep class androidx.core.app.CoreComponentFactory
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f3866810a8b75d5a6c94a1c281c5487f\lifecycle-runtime-2.2.0\proguard.txt
+-keepattributes *Annotation*
+
+-keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
+    <fields>;
+}
+
+-keep !interface * implements androidx.lifecycle.LifecycleObserver {
+}
+
+-keep class * implements androidx.lifecycle.GeneratedAdapter {
+    <init>(...);
+}
+
+-keepclassmembers class ** {
+    @androidx.lifecycle.OnLifecycleEvent *;
+}
+
+# this rule is need to work properly when app is compiled with api 28, see b/142778206
+-keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f3866810a8b75d5a6c94a1c281c5487f\lifecycle-runtime-2.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5195c5941bbffe9edae229cc5af3a512\jetified-savedstate-1.0.0\proguard.txt
+# Copyright (C) 2019 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+-keepclassmembers,allowobfuscation class * implements androidx.savedstate.SavedStateRegistry$AutoRecreated {
+    <init>();
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5195c5941bbffe9edae229cc5af3a512\jetified-savedstate-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eac42de204fa8f55071698badb39418f\jetified-firebase-components-17.0.0\proguard.txt
+-dontwarn com.google.firebase.components.Component$Instantiation
+-dontwarn com.google.firebase.components.Component$ComponentType
+
+-keep class * implements com.google.firebase.components.ComponentRegistrar
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eac42de204fa8f55071698badb39418f\jetified-firebase-components-17.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\cd1b5eefec966352545d83dd5ac0ab40\versionedparcelable-1.1.0\proguard.txt
+-keep public class * implements androidx.versionedparcelable.VersionedParcelable
+-keep public class android.support.**Parcelizer { *; }
+-keep public class androidx.**Parcelizer { *; }
+-keep public class androidx.versionedparcelable.ParcelImpl
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\cd1b5eefec966352545d83dd5ac0ab40\versionedparcelable-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8b81db9507b9e0c548352cbf813d34a6\lifecycle-viewmodel-2.1.0\proguard.txt
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.AndroidViewModel {
+    <init>(android.app.Application);
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8b81db9507b9e0c548352cbf813d34a6\lifecycle-viewmodel-2.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\de556f7419e642eec762f76f879a867d\rules\lib\META-INF\proguard\androidx-annotations.pro
+-keep,allowobfuscation @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\de556f7419e642eec762f76f879a867d\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\proguard.txt
+#
+
+#API 接口
+-keep class com.huawei.agconnect.auth.*{*;}
+
+-keepclassmembers class **{
+    public <init>(android.content.Context, com.huawei.agconnect.AGConnectInstance);
+}
+
+#网络请求Bean
+-keepclassmembers class com.huawei.agconnect.auth.internal.server.entity.**{*;}
+
+-keepclassmembers class com.huawei.agconnect.auth.internal.server.request.**{*;}
+
+-keepclassmembers class com.huawei.agconnect.auth.internal.server.response.**{*;}
+
+-keep class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\proguard.txt
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\proguard.txt
+-keep public class com.huawei.hms.support.api.entity.opendevice.* { public *; protected *; }
+-keep public class com.huawei.hms.aaid.entity.* { *;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\proguard.txt
+-keep class com.huawei.hms.common.** {*;}
+-keep class com.huawei.hms.api.** {*;}
+
+-keep interface com.huawei.hms.support.api.transport.DatagramTransport
+-keepclasseswithmembers class * implements com.huawei.hms.support.api.transport.DatagramTransport {
+  <init>(...);
+}
+-keep public class com.huawei.hms.support.api.client.* {*;}
+-keep public class com.huawei.hms.support.api.ResolvePendingResult {*;}
+-keep public class com.huawei.hms.support.api.ResolveResult {*;}
+-keep public class com.huawei.hms.support.api.PendingResultImpl {*;}
+-keep public class com.huawei.hms.support.api.ErrorResultImpl {*;}
+-keep public class com.huawei.hms.support.api.entity.core.* {*;}
+-keep public class com.huawei.hms.support.api.entity.auth.AbstractResp {*;}
+-keep public class com.huawei.hms.support.api.entity.auth.AuthCode {*;}
+-keep public class com.huawei.hms.support.api.entity.auth.Scope {*;}
+-keep public class com.huawei.hms.support.api.entity.auth.PermissionInfo {*;}
+-keep class com.huawei.hms.support.api.entity.auth.AuthCode$* {*;}
+-keep public class com.huawei.hms.support.api.core.ConnectService {*;}
+-keep public class com.huawei.hms.support.hianalytics.HiAnalyticsClient {*;}
+-keep public class com.huawei.hms.support.hianalytics.HiAnalyticsUtil {*;}
+
+-keep class com.huawei.hms.adapter.** {*;}
+-keep class com.huawei.hms.core.** {*;}
+-keep class com.huawei.hms.utils.** {*;}
+-keep class com.huawei.hms.activity.** {*;}
+-keep class com.huawei.hms.security.** {*;}
+-keep class com.huawei.hms.actions.** {*;}
+-keep class com.huawei.hms.base.** {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\proguard.txt
+-keep class com.huawei.updatesdk.** {*;}
+-keep class com.huawei.hms.update.** {*;}
+-keep class com.huawei.hms.adapter.** {*;}
+-keep class com.huawei.hms.base.** {*;}
+-keep class com.huawei.hms.availableupdate.** {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\proguard.txt
+-keep class com.huawei.hms.utils.** {*;}
+-keep class com.huawei.hms.common.** {*;}
+-keep class com.huawei.hms.android.** {*;}
+-keep public class com.huawei.hms.support.log.common.Base64 {*;}
+-keep public class com.huawei.hms.support.gentyref.GenericTypeReflector {*;}
+-keep class com.huawei.hms.device.** {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\proguard.txt
+#
+
+-keep class com.huawei.agconnect.common.api.*{*;}
+-keep class com.huawei.agconnect.credential.*{*;}
+
+-keep class com.huawei.agconnect.credential.obs.*{*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\215e7933744c77c4424b118638f94f4a\jetified-ml-computer-agc-inner-2.0.3.300\proguard.txt
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\215e7933744c77c4424b118638f94f4a\jetified-ml-computer-agc-inner-2.0.3.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\proguard.txt
+-keep class * implements com.huawei.agconnect.core.ServiceRegistrar
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\proguard.txt
+-keep class com.huawei.hms.utils.** {*;}
+-keep public class com.huawei.hms.support.hianalytics.HiAnalyticsClient {*;}
+-keep public class com.huawei.hms.support.hianalytics.HiAnalyticsConstant {*;}
+-keep public class com.huawei.hms.support.hianalytics.HiAnalyticsUtils {*;}
+-keep class com.huawei.hms.support.hianalytics.HiAnalyticsConstant$KeyAndValue {*;}
+-keep class com.huawei.hms.support.hianalytics.HiAnalyticsConstant$HaKey {*;}
+-keep class com.huawei.hms.support.hianalytics.HiAnalyticsConstant$Direction {*;}
+-keep class com.huawei.hms.stats.** {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\proguard.txt
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in D:\DevTools\androidStudio\SDK/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the proguardFiles
+# directive in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# 不加这个会导致UpgradeInfo数据转换异常
+-keepattributes Signature
+
+-keep class com.huawei.updatesdk.UpdateSdkAPI{*;}
+
+-keep class com.huawei.updatesdk.service.appmgr.bean.SDKNetTransmission
+
+-keep class com.huawei.updatesdk.service.appmgr.bean.ApkUpgradeInfo{*;}
+
+-keepclassmembers class com.huawei.updatesdk.sdk.service.storekit.bean.RequestBean{
+    <fields>;
+}
+-keepclassmembers class * extends com.huawei.updatesdk.sdk.service.storekit.bean.RequestBean{
+    <fields>;
+}
+
+-keepclassmembers class com.huawei.updatesdk.sdk.service.storekit.bean.ResponseBean{
+    <fields>;
+}
+-keepclassmembers class * extends com.huawei.updatesdk.sdk.service.storekit.bean.ResponseBean{
+    <fields>;
+}
+
+-keepclassmembers class com.huawei.updatesdk.sdk.service.storekit.bean.JsonBean{
+    <fields>;
+}
+
+-keepclassmembers class * extends com.huawei.updatesdk.sdk.service.storekit.bean.JsonBean{
+    <fields>;
+}
+
+-keep class com.huawei.updatesdk.service.appmgr.bean.Param{*;}
+
+-keep class com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider{*;}
+-keep class com.huawei.updatesdk.service.otaupdate.CheckUpdateCallBack{*;}
+-keep class com.huawei.updatesdk.service.otaupdate.UpdateKey{*;}
+-keep public interface com.huawei.updatesdk.service.otaupdate.UpdateStatusCode{*;}
+-keep public interface com.huawei.updatesdk.service.otaupdate.UpdateStatusCode$DialogButton{*;}
+-keep class com.huawei.updatesdk.service.otaupdate.UpdateParams{*;}
+-keep class com.huawei.updatesdk.service.otaupdate.UpdateParams$Builder{*;}
+-keep class com.huawei.updatesdk.service.otaupdate.UpdateDialogStatusCode{*;}
+-keep class com.huawei.updatesdk.service.appmgr.bean.AppInfoAdapter{*;}
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a8ec44aa7f1a8df0b67939dbf816fbe5\jetified-network-grs-4.0.20.301\proguard.txt
+-keep class com.huawei.hms.framework.network.grs.GrsApi {   *; }
+-keep class com.huawei.hms.framework.network.grs.GrsBaseInfo {   *; }
+-keep class com.huawei.hms.framework.network.grs.GrsBaseInfo$* {*;}
+-keep class com.huawei.hms.framework.network.grs.IQueryUrlCallBack {   *; }
+-keep class com.huawei.hms.framework.network.grs.IQueryUrlsCallBack {   *; }
+-keep class com.huawei.hms.framework.network.grs.GrsClient {   *; }
+-keep class com.huawei.hms.framework.network.grs.local.model.CountryCodeBean {   *; }
+-keep class com.huawei.hms.framework.network.grs.GrsManager {   *; }
+-keep class com.huawei.hms.framework.network.grs.GrsConfig {   *; }
+-keep class com.huawei.hms.framework.network.grs.GrsApp {   *; }
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a8ec44aa7f1a8df0b67939dbf816fbe5\jetified-network-grs-4.0.20.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ec8bf3dc4e83ff8a3b250274016460b9\jetified-agconnect-https-1.4.2.301\proguard.txt
+-keep class com.huawei.agconnect.https.annotation.** {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ec8bf3dc4e83ff8a3b250274016460b9\jetified-agconnect-https-1.4.2.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\proguard.txt
+-keep class com.huawei.hms.ui.** {*;}
+-keep class com.huawei.hms.activity.** {*;}
+-keep class com.huawei.hms.utils.** {*;}
+-keep class com.huawei.hms.base.** {*;}
+-keep public class com.huawei.hms.support.common.ActivityMgr {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\223dcdecf6d1c647857a8fa287fbd84a\jetified-log-5.2.0.300\proguard.txt
+-keep class com.huawei.hms.base.** {*;}
+-keep public class com.huawei.hms.support.log.HMSDebugger {*;}
+-keep public class com.huawei.hms.support.log.LogLevel {*;}
+-keep public class com.huawei.hms.support.log.HMSLog {*;}
+-keep class com.huawei.hms.log.** {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\223dcdecf6d1c647857a8fa287fbd84a\jetified-log-5.2.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a5d68aae921b278be297be9734b89d73\jetified-datastore-core-1.4.2.301\proguard.txt
+#
+-keep class com.huawei.agconnect.datastore.**{*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a5d68aae921b278be297be9734b89d73\jetified-datastore-core-1.4.2.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30519016e3798cb0745f681568a5f1b4\jetified-network-common-4.0.20.301\proguard.txt
+# Add project specific ProGuard rules here.
+# You can control the set of applied configuration files using the
+# proguardFiles setting in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# Uncomment this to preserve the line number information for
+# debugging stack traces.
+#-keepattributes SourceFile,LineNumberTable
+
+# If you keep the line number information, uncomment this to
+# hide the original source file name.
+#-renamesourcefileattribute SourceFile
+
+-keep class com.huawei.hms.framework.common.** {   *; }
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30519016e3798cb0745f681568a5f1b4\jetified-network-common-4.0.20.301\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1351b5e58ce3f593233f3c36e4e4443f\jetified-ml-computer-commonutils-inner-2.0.3.300\proguard.txt
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1351b5e58ce3f593233f3c36e4e4443f\jetified-ml-computer-commonutils-inner-2.0.3.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c67243557a9c5df232391eeddf3cf7af\jetified-hatool-5.2.0.300\proguard.txt
+-keep class com.huawei.hianalytics.** {*;}
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c67243557a9c5df232391eeddf3cf7af\jetified-hatool-5.2.0.300\proguard.txt
+# The proguard configuration file for the following section is C:\Users\theod\.gradle\caches\transforms-2\files-2.1\da91458b560e740b611f4b7bfab64468\rules\lib\META-INF\proguard\okhttp3.pro
+# JSR 305 annotations are for embedding nullability information.
+-dontwarn javax.annotation.**
+
+# A resource is loaded with a relative path so the package of this class must be preserved.
+-keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
+
+# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
+-dontwarn org.codehaus.mojo.animal_sniffer.*
+
+# OkHttp platform used only on JVM and when Conscrypt dependency is available.
+-dontwarn okhttp3.internal.platform.ConscryptPlatform
+
+# End of content from C:\Users\theod\.gradle\caches\transforms-2\files-2.1\da91458b560e740b611f4b7bfab64468\rules\lib\META-INF\proguard\okhttp3.pro
+# The proguard configuration file for the following section is <unknown>
+-ignorewarnings
+# End of content from <unknown>

@@ -1,12 +1,15 @@
 // @dart=2.9
 
-import 'package:flutter/material.dart';
-import 'screen/login_page.dart';
+import 'std_lib.dart';
 
 void main() {
+  // Dummy for test
   runApp(MaterialApp(
-    home: LoginPage(),
-  ));
+      home:
+          //     RegisterPage(
+          //   userData: userData,
+          // )
+          LoginPage()
+      // HomePage(userData: userData,)
+      ));
 }
-
-// ignore: use_key_in_widget_constructors

@@ -1,207 +1,1004 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-41:12
-MERGED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-41:12
-MERGED from [:agconnect_core] D:\GKY Cimone APP\gky_cmn\build\agconnect_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-54:12
+INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-54:12
+MERGED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-54:12
+MERGED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:agconnect_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\agconnect_core-1.2.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\shared_preferences-2.0.7\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:huawei_hmsavailability] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_hmsavailability-5.2.0+301\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\google_sign_in-5.1.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:agconnect_auth] D:\GKY Cimone APP\gky_cmn\build\agconnect_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:2:1-20:12
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:2:1-28:12
-MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:2:1-21:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fee68152d004bcd82d2d0589ecde55ab\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a3542377b85b5049d772cad543b4b6db\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3086d990ad80482e7942fbb8e77dfdf3\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b52d1ad5c2a8f080485c1baa1eab9322\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c71714c94318a10fa8d6817f06e62f03\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\41d19ce1814b7c50c915123437bbf4ae\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\68442f037efb0df2a2e11dcf2af210cf\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b7298b321f06ee3610506246890dc3fa\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\40aaf5eb2333f0e2608c51cb35fdd01e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\878957ea1e3bd18f638400d34b6cd265\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\baba113683157dd356c35677aeff7143\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c1c55e17e470dc62903872493a4da61d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\acf2160506ca04072e8f08d1fc6a5dce\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0fc71c0a4fbeb8465d45e27b1ee57137\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:3:1-13:12
-MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c391e0de61410559ebe831f10aed86c8\jetified-tasks-1.4.1.300\AndroidManifest.xml:2:1-10:12
-MERGED from [com.huawei.agconnect:datastore-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\46b3a00eb7a84b15b106cf11155d9f09\jetified-datastore-core-1.4.2.301\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5f187e9759c00d7dc21da80768ecda2b\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30b37a26060e4c0dfc6ec7c0a18d0bd1\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d6fee9c020913099ebb649eb369398f2\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:2:1-33:12
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:2:1-32:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e4bb0265640624f39a1c5ecffc1915f\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\556b2208fd7377b49e626606614cc553\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\36337e1d76c87ff0428ee2d993b46924\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\bc9bc97cd66fdd3dc6265035a72256ae\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b9978b06c5050a09b59d5903287795ce\jetified-play-services-measurement-sdk-19.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c9653fddf517660543cc9c4311ab14c\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d13ee7acdb76c8246c0f5eb868e7a5b0\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63069729df0bf05e6b0125691e4208dd\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ab058421308588e5e42e59834e86b803\jetified-play-services-measurement-base-19.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8075431ed3c5d1c19d53ff41e74e7414\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\26286714505af41d731786043e8d5bb4\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c7c6edf4e8f28f003c7488351144dcb7\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fa9d248c067460262152150dc3823a1d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\25a57b6b8a6892ba147b3f7ba19bdb54\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1e2e319c26245048d77b384a34c2a053\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0b770006a715444333b72a4089fe5635\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\680bdd40291db0cce6a4c93707327ee1\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\358e7f39221f0f1d5568153054695a75\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\efa12a95405955ea43f73c3f9ede53b5\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\bd03ff327c96eb36df2180929cb79c07\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\87e7fb5537376a00c2f46f50bff03719\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\18737590f3beff1b017674560c458f91\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c838bd8b628b7f5d180b0fca2940ef91\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3f627d4bba86d026ca67da491581b3ba\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9a8d614c1ae378aa661a909ddd98f458\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fbfe34a48a932ad0db4e0b08acd0f994\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\44a4402b6aceab8985096b9f9aa7fb27\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f3866810a8b75d5a6c94a1c281c5487f\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5195c5941bbffe9edae229cc5af3a512\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8a33402c2e5d5d4649b95d1cf0a13ef8\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\04b7c06165f90a19367252eed9b66a93\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\46a0894d1d4346254daa0c696d64aa01\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eac42de204fa8f55071698badb39418f\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eda15279174b0b34bad49fe046f8a65f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e0a0a885129afb6311d969de8baa6a3\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\cd1b5eefec966352545d83dd5ac0ab40\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7cf4053c61fe5fa5611e1324f6b59dbb\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d8364a08498c6b732476a120417a6848\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\2b2b176a76ed5266437051f20061eb0d\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8b81db9507b9e0c548352cbf813d34a6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:2:1-20:12
+MERGED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:3:1-19:12
+MERGED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:2:1-24:12
+MERGED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:2:1-25:12
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:2:1-33:12
+MERGED from [com.huawei.hms:device:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\AndroidManifest.xml:2:1-14:12
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:2:1-28:12
+MERGED from [com.huawei.hms:ml-computer-agc-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\215e7933744c77c4424b118638f94f4a\jetified-ml-computer-agc-inner-2.0.3.300\AndroidManifest.xml:3:1-12:12
+MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:2:1-21:12
+MERGED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:2:1-17:12
+MERGED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:2:1-19:12
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:2:1-16:12
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:2:1-48:12
+MERGED from [com.huawei.hms:network-grs:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a8ec44aa7f1a8df0b67939dbf816fbe5\jetified-network-grs-4.0.20.301\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:2:1-20:12
+MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ec8bf3dc4e83ff8a3b250274016460b9\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:3:1-13:12
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5e4ca5adf45cef9b75483fb2d1a952c3\jetified-tasks-1.4.1.300\AndroidManifest.xml:2:1-10:12
+MERGED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:2:1-29:12
+MERGED from [com.huawei.hms:log:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\223dcdecf6d1c647857a8fa287fbd84a\jetified-log-5.2.0.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.agconnect:datastore-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a5d68aae921b278be297be9734b89d73\jetified-datastore-core-1.4.2.301\AndroidManifest.xml:2:1-10:12
+MERGED from [com.huawei.hms:network-framework-compat:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\080d96d0e0546dd73a701d788a341ea8\jetified-network-framework-compat-4.0.20.301\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-common:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30519016e3798cb0745f681568a5f1b4\jetified-network-common-4.0.20.301\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:ml-computer-commonutils-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1351b5e58ce3f593233f3c36e4e4443f\jetified-ml-computer-commonutils-inner-2.0.3.300\AndroidManifest.xml:3:1-12:12
+MERGED from [com.huawei.android.hms:security-base:1.1.5.302] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a79cd2040c52c61bc7fa4682e380797\jetified-security-base-1.1.5.302\AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.hms:hatool:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c67243557a9c5df232391eeddf3cf7af\jetified-hatool-5.2.0.300\AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7316be5ab0a3763af61f7da1a26cd019\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:2:1-15:12
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.302] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d54e1a93a7dd4f5997ab0d26fe42c107\jetified-security-encrypt-1.1.5.302\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:componentverifysdk:11.1.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f8069b3dd4580beb0daa0020da637978\jetified-componentverifysdk-11.1.0.300\AndroidManifest.xml:2:1-12:12
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:2:5-34
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:2:5-26
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-54:12
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:1-54:12
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:4:5-79
+MERGED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:device:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\AndroidManifest.xml:10:5-79
+MERGED from [com.huawei.hms:device:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\AndroidManifest.xml:10:5-79
+MERGED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:11:5-79
+MERGED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:11:5-79
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ec8bf3dc4e83ff8a3b250274016460b9\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:11:5-79
+MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ec8bf3dc4e83ff8a3b250274016460b9\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\google_sign_in-5.1.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\google_sign_in-5.1.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:12:5-67
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:12:5-67
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:8:5-65
+MERGED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:11:5-65
+MERGED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:9:22-77
+uses-feature#android.hardware.camera
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:10:5-60
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:10:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:11:19-67
 application
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:3:4-40:19
-MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:10:5-18:19
-MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:10:5-18:19
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:14:5-26:19
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:14:5-26:19
-MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:10:5-19:19
-MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:10:5-19:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\41d19ce1814b7c50c915123437bbf4ae\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\41d19ce1814b7c50c915123437bbf4ae\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c1c55e17e470dc62903872493a4da61d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c1c55e17e470dc62903872493a4da61d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:12:4-53:19
+MERGED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-19:19
+MERGED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-19:19
+MERGED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30b37a26060e4c0dfc6ec7c0a18d0bd1\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30b37a26060e4c0dfc6ec7c0a18d0bd1\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d6fee9c020913099ebb649eb369398f2\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d6fee9c020913099ebb649eb369398f2\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:13:5-31:19
+MERGED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:13:5-31:19
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:15:5-30:19
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:15:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\36337e1d76c87ff0428ee2d993b46924\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\36337e1d76c87ff0428ee2d993b46924\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b9978b06c5050a09b59d5903287795ce\jetified-play-services-measurement-sdk-19.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b9978b06c5050a09b59d5903287795ce\jetified-play-services-measurement-sdk-19.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d13ee7acdb76c8246c0f5eb868e7a5b0\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d13ee7acdb76c8246c0f5eb868e7a5b0\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63069729df0bf05e6b0125691e4208dd\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63069729df0bf05e6b0125691e4208dd\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ab058421308588e5e42e59834e86b803\jetified-play-services-measurement-base-19.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ab058421308588e5e42e59834e86b803\jetified-play-services-measurement-base-19.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8075431ed3c5d1c19d53ff41e74e7414\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8075431ed3c5d1c19d53ff41e74e7414\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\26286714505af41d731786043e8d5bb4\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\26286714505af41d731786043e8d5bb4\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\cd1b5eefec966352545d83dd5ac0ab40\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\cd1b5eefec966352545d83dd5ac0ab40\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:10:5-18:19
+MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:10:5-18:19
+MERGED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:12:5-17:19
+MERGED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:12:5-17:19
+MERGED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:9:5-22:19
+MERGED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:9:5-22:19
+MERGED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:18:5-31:19
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:18:5-31:19
+MERGED from [com.huawei.hms:device:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\AndroidManifest.xml:12:5-20
+MERGED from [com.huawei.hms:device:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\AndroidManifest.xml:12:5-20
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:14:5-26:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:14:5-26:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:11:5-15:19
+MERGED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:11:5-15:19
+MERGED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:13:5-17:19
+MERGED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:13:5-17:19
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:20:5-46:19
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:20:5-46:19
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:11:5-18:19
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:11:5-18:19
+MERGED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:log:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\223dcdecf6d1c647857a8fa287fbd84a\jetified-log-5.2.0.300\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:log:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\223dcdecf6d1c647857a8fa287fbd84a\jetified-log-5.2.0.300\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7316be5ab0a3763af61f7da1a26cd019\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7316be5ab0a3763af61f7da1a26cd019\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.hms:componentverifysdk:11.1.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f8069b3dd4580beb0daa0020da637978\jetified-componentverifysdk-11.1.0.300\AndroidManifest.xml:9:5-10:19
+MERGED from [com.huawei.hms:componentverifysdk:11.1.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f8069b3dd4580beb0daa0020da637978\jetified-componentverifysdk-11.1.0.300\AndroidManifest.xml:9:5-10:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\41d19ce1814b7c50c915123437bbf4ae\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:4:9-32
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:5:9-43
-activity#com.example.gky_cmn.MainActivity
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:6:9-34:20
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:14:9-45
+activity#com.gky_cmn.MainActivity
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:15:9-47:20
 	android:launchMode
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:8:13-43
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:17:13-43
 	android:hardwareAccelerated
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:11:13-47
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:20:13-47
 	android:windowSoftInputMode
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:12:13-55
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:21:13-55
 	android:configChanges
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:10:13-163
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:19:13-163
 	android:theme
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:9:13-47
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:18:13-47
 	android:name
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:7:13-41
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:16:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:17:13-20:17
-	android:resource
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:19:15-52
-	android:name
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:18:15-70
-meta-data#io.flutter.embedding.android.SplashScreenDrawable
 ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:26:13-29:17
 	android:resource
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:28:15-61
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:28:15-52
 	android:name
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:27:15-79
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:30:13-33:29
-action#android.intent.action.MAIN
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:31:17-68
-	android:name
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:31:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:32:17-76
-	android:name
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:32:27-74
-meta-data#flutterEmbedding
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:37:9-39:33
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:27:15-70
+meta-data#com.huawei.hms.client.channel.androidMarket
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:30:13-33:17
 	android:value
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:39:13-30
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:32:15-36
 	android:name
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:38:13-44
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:31:15-73
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:39:13-42:17
+	android:resource
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:41:15-61
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:40:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:44:17-68
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:45:27-74
+meta-data#flutterEmbedding
+ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:50:9-52:33
+	android:value
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:52:13-30
+	android:name
+		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml:51:13-44
 uses-sdk
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml
-MERGED from [:agconnect_core] D:\GKY Cimone APP\gky_cmn\build\agconnect_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:agconnect_core] D:\GKY Cimone APP\gky_cmn\build\agconnect_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:agconnect_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\agconnect_core-1.2.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:agconnect_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\agconnect_core-1.2.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\shared_preferences-2.0.7\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\shared_preferences-2.0.7\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:huawei_hmsavailability] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_hmsavailability-5.2.0+301\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:huawei_hmsavailability] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_hmsavailability-5.2.0+301\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\google_sign_in-5.1.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\google_sign_in-5.1.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:agconnect_auth] D:\GKY Cimone APP\gky_cmn\build\agconnect_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:agconnect_auth] D:\GKY Cimone APP\gky_cmn\build\agconnect_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:7:5-10:70
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:7:5-10:70
-MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fee68152d004bcd82d2d0589ecde55ab\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fee68152d004bcd82d2d0589ecde55ab\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a3542377b85b5049d772cad543b4b6db\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a3542377b85b5049d772cad543b4b6db\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3086d990ad80482e7942fbb8e77dfdf3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3086d990ad80482e7942fbb8e77dfdf3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b52d1ad5c2a8f080485c1baa1eab9322\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b52d1ad5c2a8f080485c1baa1eab9322\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c71714c94318a10fa8d6817f06e62f03\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c71714c94318a10fa8d6817f06e62f03\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\41d19ce1814b7c50c915123437bbf4ae\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\41d19ce1814b7c50c915123437bbf4ae\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\68442f037efb0df2a2e11dcf2af210cf\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\68442f037efb0df2a2e11dcf2af210cf\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b7298b321f06ee3610506246890dc3fa\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b7298b321f06ee3610506246890dc3fa\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\40aaf5eb2333f0e2608c51cb35fdd01e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\40aaf5eb2333f0e2608c51cb35fdd01e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\878957ea1e3bd18f638400d34b6cd265\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\878957ea1e3bd18f638400d34b6cd265\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\baba113683157dd356c35677aeff7143\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\baba113683157dd356c35677aeff7143\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c1c55e17e470dc62903872493a4da61d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c1c55e17e470dc62903872493a4da61d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\acf2160506ca04072e8f08d1fc6a5dce\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\acf2160506ca04072e8f08d1fc6a5dce\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0fc71c0a4fbeb8465d45e27b1ee57137\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0fc71c0a4fbeb8465d45e27b1ee57137\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c391e0de61410559ebe831f10aed86c8\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c391e0de61410559ebe831f10aed86c8\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.agconnect:datastore-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\46b3a00eb7a84b15b106cf11155d9f09\jetified-datastore-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.agconnect:datastore-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\46b3a00eb7a84b15b106cf11155d9f09\jetified-datastore-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5f187e9759c00d7dc21da80768ecda2b\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5f187e9759c00d7dc21da80768ecda2b\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30b37a26060e4c0dfc6ec7c0a18d0bd1\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30b37a26060e4c0dfc6ec7c0a18d0bd1\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d6fee9c020913099ebb649eb369398f2\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d6fee9c020913099ebb649eb369398f2\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e4bb0265640624f39a1c5ecffc1915f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e4bb0265640624f39a1c5ecffc1915f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\556b2208fd7377b49e626606614cc553\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\556b2208fd7377b49e626606614cc553\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\36337e1d76c87ff0428ee2d993b46924\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\36337e1d76c87ff0428ee2d993b46924\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\bc9bc97cd66fdd3dc6265035a72256ae\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\bc9bc97cd66fdd3dc6265035a72256ae\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b9978b06c5050a09b59d5903287795ce\jetified-play-services-measurement-sdk-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b9978b06c5050a09b59d5903287795ce\jetified-play-services-measurement-sdk-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c9653fddf517660543cc9c4311ab14c\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c9653fddf517660543cc9c4311ab14c\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d13ee7acdb76c8246c0f5eb868e7a5b0\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d13ee7acdb76c8246c0f5eb868e7a5b0\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63069729df0bf05e6b0125691e4208dd\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63069729df0bf05e6b0125691e4208dd\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ab058421308588e5e42e59834e86b803\jetified-play-services-measurement-base-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ab058421308588e5e42e59834e86b803\jetified-play-services-measurement-base-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8075431ed3c5d1c19d53ff41e74e7414\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8075431ed3c5d1c19d53ff41e74e7414\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\26286714505af41d731786043e8d5bb4\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\26286714505af41d731786043e8d5bb4\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c7c6edf4e8f28f003c7488351144dcb7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c7c6edf4e8f28f003c7488351144dcb7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fa9d248c067460262152150dc3823a1d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fa9d248c067460262152150dc3823a1d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\25a57b6b8a6892ba147b3f7ba19bdb54\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\25a57b6b8a6892ba147b3f7ba19bdb54\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1e2e319c26245048d77b384a34c2a053\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1e2e319c26245048d77b384a34c2a053\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0b770006a715444333b72a4089fe5635\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0b770006a715444333b72a4089fe5635\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\680bdd40291db0cce6a4c93707327ee1\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\680bdd40291db0cce6a4c93707327ee1\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\358e7f39221f0f1d5568153054695a75\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\358e7f39221f0f1d5568153054695a75\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\efa12a95405955ea43f73c3f9ede53b5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\efa12a95405955ea43f73c3f9ede53b5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\bd03ff327c96eb36df2180929cb79c07\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\bd03ff327c96eb36df2180929cb79c07\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\87e7fb5537376a00c2f46f50bff03719\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\87e7fb5537376a00c2f46f50bff03719\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\18737590f3beff1b017674560c458f91\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\18737590f3beff1b017674560c458f91\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c838bd8b628b7f5d180b0fca2940ef91\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c838bd8b628b7f5d180b0fca2940ef91\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3f627d4bba86d026ca67da491581b3ba\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3f627d4bba86d026ca67da491581b3ba\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9a8d614c1ae378aa661a909ddd98f458\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9a8d614c1ae378aa661a909ddd98f458\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fbfe34a48a932ad0db4e0b08acd0f994\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fbfe34a48a932ad0db4e0b08acd0f994\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\44a4402b6aceab8985096b9f9aa7fb27\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\44a4402b6aceab8985096b9f9aa7fb27\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\aaecc80980233212890e1ae9c4a6df93\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f3866810a8b75d5a6c94a1c281c5487f\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f3866810a8b75d5a6c94a1c281c5487f\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5195c5941bbffe9edae229cc5af3a512\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5195c5941bbffe9edae229cc5af3a512\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8a33402c2e5d5d4649b95d1cf0a13ef8\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8a33402c2e5d5d4649b95d1cf0a13ef8\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\04b7c06165f90a19367252eed9b66a93\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\04b7c06165f90a19367252eed9b66a93\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\46a0894d1d4346254daa0c696d64aa01\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\46a0894d1d4346254daa0c696d64aa01\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eac42de204fa8f55071698badb39418f\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eac42de204fa8f55071698badb39418f\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eda15279174b0b34bad49fe046f8a65f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\eda15279174b0b34bad49fe046f8a65f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e0a0a885129afb6311d969de8baa6a3\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6e0a0a885129afb6311d969de8baa6a3\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\cd1b5eefec966352545d83dd5ac0ab40\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\cd1b5eefec966352545d83dd5ac0ab40\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7cf4053c61fe5fa5611e1324f6b59dbb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7cf4053c61fe5fa5611e1324f6b59dbb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d8364a08498c6b732476a120417a6848\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d8364a08498c6b732476a120417a6848\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\2b2b176a76ed5266437051f20061eb0d\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\2b2b176a76ed5266437051f20061eb0d\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8b81db9507b9e0c548352cbf813d34a6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\8b81db9507b9e0c548352cbf813d34a6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:device:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:device:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a230aa42fbf3a25c9da67f7dd4c8bfb\jetified-device-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:7:5-10:70
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:7:5-10:70
+MERGED from [com.huawei.hms:ml-computer-agc-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\215e7933744c77c4424b118638f94f4a\jetified-ml-computer-agc-inner-2.0.3.300\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ml-computer-agc-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\215e7933744c77c4424b118638f94f4a\jetified-ml-computer-agc-inner-2.0.3.300\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:stats:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b6b8975a50fb429aceb86edac7a057fa\jetified-stats-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a8ec44aa7f1a8df0b67939dbf816fbe5\jetified-network-grs-4.0.20.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a8ec44aa7f1a8df0b67939dbf816fbe5\jetified-network-grs-4.0.20.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ec8bf3dc4e83ff8a3b250274016460b9\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\ec8bf3dc4e83ff8a3b250274016460b9\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5e4ca5adf45cef9b75483fb2d1a952c3\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\5e4ca5adf45cef9b75483fb2d1a952c3\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\223dcdecf6d1c647857a8fa287fbd84a\jetified-log-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\223dcdecf6d1c647857a8fa287fbd84a\jetified-log-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.agconnect:datastore-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a5d68aae921b278be297be9734b89d73\jetified-datastore-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:datastore-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a5d68aae921b278be297be9734b89d73\jetified-datastore-core-1.4.2.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:network-framework-compat:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\080d96d0e0546dd73a701d788a341ea8\jetified-network-framework-compat-4.0.20.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-framework-compat:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\080d96d0e0546dd73a701d788a341ea8\jetified-network-framework-compat-4.0.20.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30519016e3798cb0745f681568a5f1b4\jetified-network-common-4.0.20.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:4.0.20.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\30519016e3798cb0745f681568a5f1b4\jetified-network-common-4.0.20.301\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:ml-computer-commonutils-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1351b5e58ce3f593233f3c36e4e4443f\jetified-ml-computer-commonutils-inner-2.0.3.300\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ml-computer-commonutils-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1351b5e58ce3f593233f3c36e4e4443f\jetified-ml-computer-commonutils-inner-2.0.3.300\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.android.hms:security-base:1.1.5.302] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a79cd2040c52c61bc7fa4682e380797\jetified-security-base-1.1.5.302\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-base:1.1.5.302] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\1a79cd2040c52c61bc7fa4682e380797\jetified-security-base-1.1.5.302\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.hms:hatool:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c67243557a9c5df232391eeddf3cf7af\jetified-hatool-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hatool:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c67243557a9c5df232391eeddf3cf7af\jetified-hatool-5.2.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7316be5ab0a3763af61f7da1a26cd019\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7316be5ab0a3763af61f7da1a26cd019\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.302] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d54e1a93a7dd4f5997ab0d26fe42c107\jetified-security-encrypt-1.1.5.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.302] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\d54e1a93a7dd4f5997ab0d26fe42c107\jetified-security-encrypt-1.1.5.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:componentverifysdk:11.1.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f8069b3dd4580beb0daa0020da637978\jetified-componentverifysdk-11.1.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:componentverifysdk:11.1.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f8069b3dd4580beb0daa0020da637978\jetified-componentverifysdk-11.1.0.300\AndroidManifest.xml:5:5-7:41
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml
 INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:10:9-67
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:10:9-67
 	android:targetSdkVersion
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:12:5-67
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:12:5-67
-	android:name
-		ADDED from D:\GKY Cimone APP\gky_cmn\android\app\src\debug\AndroidManifest.xml:6:22-64
-service#com.huawei.agconnect.core.ServiceDiscovery
-ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:11:9-17:19
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:15:9-21:19
-MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:15:9-21:19
-MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:16:9-18:40
-MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:16:9-18:40
+activity#com.huawei.hms.flutter.scan.customizedview.CustomizedViewActivity
+ADDED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:74
 	android:exported
-		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:13:13-37
+		ADDED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-71
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:12:13-70
-meta-data#com.huawei.agconnect.auth.AuthServiceRegistrar
-ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:14:13-16:78
+		ADDED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-93
+activity#com.huawei.hms.flutter.scan.multiprocessor.MultiProcessorActivity
+ADDED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:52
+	android:screenOrientation
+		ADDED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from [:huawei_scan] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\huawei_scan-1.3.0+300\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-93
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:16:17-75
+		ADDED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\dd2d08f677225ed5b403ae3a096a06cf\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:15:17-78
-meta-data#com.huawei.agconnect.credential.CredentialServiceRegistrar:500
-ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:18:13-20:78
+		ADDED from [:firebase_auth] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_auth-3.1.1\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:20:17-75
+		ADDED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:19:17-94
-uses-library#org.apache.http.legacy
-ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:23:9-25:40
-	android:required
-		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:25:13-37
+		ADDED from [:firebase_core] C:\Users\theod\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6bb1d4a6d83857e3f17438139527aafb\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:24:13-50
-provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
-ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:11:9-14:40
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a1c96236c40b171a033925599918d41f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b63c742dc2f766bf01f6c77afbc7d8e3\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0653c8ec2e26b97531526ebd7b81e441\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\63d409ff359f462df663f2527d2a6657\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 	android:authorities
-		ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:13:13-73
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:14:13-37
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7b4ac5d63e104ffc74410d07881081f3\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:12:13-90
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0fc71c0a4fbeb8465d45e27b1ee57137\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:11:5-79
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\b70139c26729055b6b1dc128e81b8021\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+meta-data#huawei_module_scankit_local
+ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:14:9-16:40
+	android:value
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-https:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\0fc71c0a4fbeb8465d45e27b1ee57137\jetified-agconnect-https-1.4.2.301\AndroidManifest.xml:11:22-76
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:15:13-55
+meta-data#huawei_module_scankit_sdk_version
+ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:17:9-19:46
+	android:value
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:19:13-43
+	android:name
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:18:13-61
+meta-data#com.huawei.hms.client.service.name:scan
+ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:20:9-22:46
+	android:value
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:22:13-43
+	android:name
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:21:13-67
+meta-data#com.huawei.hms.min_api_level:scan:huawei_module_scankit
+ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:23:9-25:33
+	android:value
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:25:13-30
+	android:name
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:24:13-83
+meta-data#com.huawei.hms.min_api_level:scan:hmscore
+ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:26:9-28:33
+	android:value
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:28:13-30
+	android:name
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:27:13-69
+activity#com.huawei.hms.hmsscankit.ScanKitActivity
+ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:30:9-78
+	android:name
+		ADDED from [com.huawei.hms:scan:1.3.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\c6c6baab2a3eb7a6d0926c76d369a928\jetified-scan-1.3.0.300\AndroidManifest.xml:30:19-75
+uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:13:5-106
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:16:5-106
+MERGED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:16:5-106
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:18:5-106
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:18:5-106
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:13:22-103
+meta-data#com.huawei.hms.client.service.name:hianalytics
+ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:16:9-18:53
+	android:value
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:18:13-50
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:17:13-74
+meta-data#com.huawei.hms.min_api_level:hianalytics:hianalytics
+ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:19:9-21:33
+	android:value
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:21:13-30
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:20:13-80
+receiver#com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver
+ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:23:9-29:20
+	android:exported
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:24:13-87
+intent-filter#action:name:com.huawei.hms.analytics.pps.event
+ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:26:13-28:29
+action#com.huawei.hms.analytics.pps.event
+ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:5.1.0.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\3b47e91751bd99c7756129ed4d50e3d9\jetified-hianalytics-5.1.0.301\AndroidManifest.xml:27:25-74
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\643a09d7fd261ce11fd2c4c0d0afb7be\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\700f406257fe3effdd5a3381ed327f84\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\fae480a0efb8cda0241ca0315c50624d\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e8f58cfba84fe547845353a53c1a0cb9\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6ec8f7161edbb437525e465eb5f30014\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+service#com.huawei.agconnect.core.ServiceDiscovery
+ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:11:9-17:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:15:9-21:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:15:9-21:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:16:9-18:40
+MERGED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:12:13-70
+meta-data#com.huawei.agconnect.auth.AuthServiceRegistrar
+ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:14:13-16:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:16:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\adfe541aeed88cd580f635f8d26d8c26\jetified-agconnect-auth-1.4.2.301\AndroidManifest.xml:15:17-78
+provider#com.huawei.hms.mlsdk.common.provider.MLInitializerProvider
+ADDED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:13:9-16:40
+	android:authorities
+		ADDED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:15:13-73
+	android:exported
+		ADDED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.huawei.hms:ml-computer-sdkbase-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\a012d86d11eb06ebc6c97407c0d157ee\jetified-ml-computer-sdkbase-inner-2.0.3.300\AndroidManifest.xml:14:13-86
+provider#com.huawei.hms.aaid.InitProvider
+ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:12:13-68
+	android:exported
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:11:13-60
+meta-data#com.huawei.hms.client.service.name:opendevice
+ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:16:9-18:52
+	android:value
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:17:13-73
+meta-data#com.huawei.hms.min_api_level:opendevice:push
+ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:19:9-21:33
+	android:value
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:21:13-30
+	android:name
+		ADDED from [com.huawei.hms:opendevice:5.0.4.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\f6c25b7a177afe9f928145dbec9c2f72\jetified-opendevice-5.0.4.301\AndroidManifest.xml:20:13-72
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:15:9-17:46
+	android:value
+		ADDED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:16:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:20:9-22:33
+	android:value
+		ADDED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:22:13-30
+	android:name
+		ADDED from [com.huawei.hms:base:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\38ebb7f3ce2193251bd2e5bca9bf511d\jetified-base-5.2.0.300\AndroidManifest.xml:21:13-69
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:14:5-83
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:15:5-83
+MERGED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:15:5-83
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:14:22-80
+meta-data#availableLoaded
+ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:21:9-23:35
+	android:value
+		ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:23:13-32
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:22:13-43
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:25:9-30:20
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:29:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:27:13-71
+	android:exported
+		ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\10a2a6a91d5243d4ac9ae7607154dc24\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:26:13-73
+meta-data#com.huawei.agconnect.credential.CredentialServiceRegistrar:500
+ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:18:13-20:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:20:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:19:17-94
+uses-library#org.apache.http.legacy
+ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:23:9-25:40
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7316be5ab0a3763af61f7da1a26cd019\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\7316be5ab0a3763af61f7da1a26cd019\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e449e928652aed3cbaf3573def92c2a1\jetified-agconnect-credential-1.4.2.301\AndroidManifest.xml:24:13-50
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:11:9-14:40
+	android:authorities
+		ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:13:13-73
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.4.2.301] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\df62d331c2ce7c920b0a696f3bf2c245\jetified-agconnect-core-1.4.2.301\AndroidManifest.xml:12:13-90
+meta-data#com.huawei.hms.client.service.name:ml-computer-camera-inner
+ADDED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:12:9-14:66
+	android:value
+		ADDED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:14:13-63
+	android:name
+		ADDED from [com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9b4adbc9a8274ee9cad2de0a8c79dd82\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:13:13-87
+meta-data#com.huawei.hms.client.service.name:ml-computer-ha-inner
+ADDED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:14:9-16:62
+	android:value
+		ADDED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:16:13-59
+	android:name
+		ADDED from [com.huawei.hms:ml-computer-ha-inner:2.0.3.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9dfd27a747d8c7933eb7544a3ec5c98e\jetified-ml-computer-ha-inner-2.0.3.300\AndroidManifest.xml:15:13-83
+activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
+ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:24:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:23:13-59
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:22:13-84
+meta-data#hwc-theme
+ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+	android:value
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
+ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:33:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:31:13-84
+provider#com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:40:9-45:20
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:44:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:42:13-74
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.1.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\9e1e586ddec5d5d25cdf048f285b9fde\jetified-update-3.0.1.300\AndroidManifest.xml:41:13-83
+meta-data#com.huawei.hms.client.service.name:dynamic-api
+ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:12:9-14:54
+	android:value
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:14:13-51
+	android:name
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:13:13-74
+meta-data#com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader
+ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:15:9-17:33
+	android:value
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:17:13-30
+	android:name
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\6c733a93223c2e434ea10a535abe42c8\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:16:13-96
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:10:9-21:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:16:13-47
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:13:13-46
+	android:hardwareAccelerated
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:15:13-47
+	android:exported
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:14:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:12:13-131
+	android:theme
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:17:13-61
+	android:name
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:11:13-66
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:22:9-26:20
+	android:exported
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:25:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:24:13-106
+	android:name
+		ADDED from [com.huawei.hms:ui:5.2.0.300] C:\Users\theod\.gradle\caches\transforms-2\files-2.1\e0f729e975c51f948347bd4052f6d405\jetified-ui-5.2.0.300\AndroidManifest.xml:23:13-73

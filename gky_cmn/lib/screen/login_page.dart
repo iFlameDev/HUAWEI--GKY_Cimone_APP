@@ -1,10 +1,7 @@
-import 'package:gky_cmn/screen/admin_page.dart';
-import 'package:gky_cmn/screen/home_page.dart';
-import 'package:gky_cmn/screen/register_page.dart';
+import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
 
 import '../std_lib.dart';
-import '../login-widgets/export_login_widgets.dart';
-import 'package:validators/validators.dart';
 
 // ignore: use_key_in_widget_constructors
 class LoginPage extends StatefulWidget {
@@ -13,18 +10,40 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-// input text controller ============================================
+  @override
+  void initState() {
+    super.initState();
+    autoLogin();
+  }
+
+  autoLogin() async {
+    if (await Cookies().isLogin()) {
+      userData = await Cookies().getLoginCookies();
+      Navigators().toHomePage(userData, context);
+    }
+  }
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  UserData userData = UserData();
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< INIT STATE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// =================================================================================
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< input text controller >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   TextEditingController emailController = TextEditingController();
 
-// Form Key ======================================================
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<google Login Controller>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  final googleLoginController = Get.put(GoogleLoginController());
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Form Key >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   final formKey = GlobalKey<FormState>();
 
-// Widget Build =====================================================
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Widget Build >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   @override
   Widget build(BuildContext context) {
     final _height = displayHeight(context);
 
-//Constructing widget =============================================
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Constructing widget >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 //=========================== LOGO GKY ====================================
     final logo = Row(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -37,11 +56,10 @@ class _LoginPageState extends State<LoginPage> {
       padding: const EdgeInsets.symmetric(vertical: 12.0),
       child: TextFormField(
         controller: emailController,
-        autofocus: true,
         autocorrect: true,
         validator: (value) {
           if (!isEmail(value!)) {
-            return 'Invalid Email';
+            return 'Email tidak valid';
           }
           return null;
         },
@@ -68,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
 
 //================================= Login Button =======================================
     final loginBtn = RoundedButton(
-      buttonText: 'Login',
+      buttonText: 'Masuk',
       onclick: () => loginEmail(emailController.text),
     );
 
@@ -83,7 +101,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 50,
             )),
       ),
-      const Text('OR', style: kBodyText),
+      const Text('Masuk menggunakan', style: kBodyText),
       Expanded(
         child: Container(
             margin: const EdgeInsets.only(left: 15.0, right: 10.0),
@@ -95,31 +113,51 @@ class _LoginPageState extends State<LoginPage> {
     ]);
 
 // ================================= Platform Sign in =========================
-    // ignore: prefer_const_constructors
-    final googleSignIn = SignInLogoButton(
-        path: 'assets/logo-google.png',
-        widthNum: 55,
-        paddingNum: 5,
-        onclick: () => loginGmail());
 
+    // GOOGLE SIGN IN NOT IMPLEMENTED
     // ignore: prefer_const_constructors
-    final huaweiSignIn = SignInLogoButton(
-        path: 'assets/logo-huawei.png',
-        widthNum: 55,
-        paddingNum: 10,
-        onclick: () => loginHMS());
-
-    // ignore: prefer_const_constructors
-    final appleSignIn = SignInLogoButton(
-        path: 'assets/logo-apple.png',
-        widthNum: 50,
-        paddingNum: 5,
-        onclick: () => loginIOS());
-
-    final signInLogoButtonGroup = Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [googleSignIn, huaweiSignIn, appleSignIn],
+    final googleSignIn = FloatingActionButton.extended(
+      onPressed: () {
+        loginGoogle();
+      },
+      icon: Image.asset(
+        'assets/logo-google.png',
+        height: 32,
+        width: 32,
+      ),
+      label: Text('Sign in with Google'),
+      backgroundColor: Colors.white,
+      foregroundColor: Colors.black,
     );
+
+    // final huaweiSignInBtn = HuaweiIdAuthButton(
+    //   onPressed: () async {
+    //     loginHMS();
+    //   },
+    //   borderRadius: AuthButtonRadius.MEDIUM,
+    // );
+
+    // final huaweiSignIn = Container(
+    //   child: (userData.serviceAvailability.getHMSavailability())
+    //       ? huaweiSignInBtn
+    //       : Container(),
+    // );
+
+    // APPLE SIGN IN NOT IMPLEMENTED
+    // ignore: prefer_const_constructors
+    // final appleSignIn = SignInLogoButton(
+    //     path: 'assets/logo-apple.png',
+    //     widthNum: 50,
+    //     paddingNum: 5,
+    //     onclick: () => loginIOS());
+
+    // SIGN IN GROUP NOT IMPLEMENTED
+    // final signInLogoButtonGroup = Row(
+    //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    //   children: [
+    //     /*googleSignIn,*/ huaweiSignIn, /*appleSignIn*/
+    //   ],
+    // );
 
 //===================================== Layout ================================
     return Stack(
@@ -145,7 +183,9 @@ class _LoginPageState extends State<LoginPage> {
                     SizedBox(height: _height * 0.05),
                     orSeparator,
                     SizedBox(height: _height * 0.04),
-                    signInLogoButtonGroup
+                    googleSignIn,
+                    SizedBox(height: _height * 0.04),
+                    // huaweiSignInBtn
                   ],
                 ),
               ),
@@ -156,31 +196,137 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  loginEmail(String email) => {
-        // http response
+//{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{  LOGIN EMAIL  }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+  loginEmail(String email) {
+    // http response
 
-        if (formKey.currentState!.validate())
-          {
-            // If the form is valid, display a snackbar. In the real world,
-            // you'd often call a server or save the information in a database.
-            ScaffoldMessenger.of(context)
-                .showSnackBar(SnackBar(content: Text('Processing Data'))),
+    if (formKey.currentState!.validate()) {
+      userData.email = emailController.text;
+      if (userData.email == 'admin@admin.com') {
+        // admin login, go to admin page
+        // Message
+        ScaffoldMessenger.of(context)
+            .showSnackBar(SnackBar(content: Text('Masuk sebagai admin')));
 
-            if (emailController.text == 'admin@admin.com')
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => AdminPage()))
-            // HTTP Request Response
-            else if (emailController.text == 'asd@asd.com')
-              Navigator.pushAndRemoveUntil(
-                  context,
-                  MaterialPageRoute(builder: (context) => RegisterPage()),
-                  ModalRoute.withName('/loginPage'))
-            else
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => HomePage()))
-          },
-      };
-  loginGmail() => {};
-  loginHMS() => {};
-  loginIOS() => {};
+        // Moving page
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => AdminPage(
+                      userData: userData,
+                    )));
+      } else {
+        loginOrRegis();
+      }
+    }
+    ;
+  }
+
+//{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{    LOGIN HUAWEI     }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+  // loginHMS() async {
+  //   AccountAuthParamsHelper helper = AccountAuthParamsHelper();
+  //   helper
+  //     ..setAccessToken()
+  //     ..setEmail()
+  //     ..setIdToken()
+  //     ..setAuthorizationCode()
+  //     ..setProfile();
+  //   try {
+  //     userData.loginData.huaweiAccount =
+  //         await AccountAuthService.signIn(helper);
+  //   } on Exception catch (e) {
+  //     print(e);
+  //     await DialogError()
+  //         .show(CodeStatus(code: '123', status: e.toString()), context);
+  //     return;
+  //   }
+  //   // print('lewat');
+  //   userData.email = userData.loginData.huaweiAccount!.email;
+  //   userData.name = userData.loginData.huaweiAccount!.givenName;
+
+  //   loginOrRegis();
+  // }
+
+// {{{{{{{{{{{{{{{{{{{{{{{{{{{    LOGIN OR REGIS DECISION    }}}}}}}}}}}}}}}}}}}}}}}}}}}
+  loginOrRegis() async {
+    // print('masuk login or regis');
+    // print(userData.email);
+    // print(userData.loginData.huaweiAccount.displayName);
+
+    //HTTP REQ
+    await loginRequest();
+    // print(userData.email);
+    // print(userData.address);
+    // print(userData.name);
+    print('CONSOLE kelar REQUEST');
+
+    // kalau sudah ada di system
+    // HOMEPAGE
+    if (codeStatus.code == '001') {
+      print(codeStatus);
+      Navigators().toHomePage(userData, context);
+    }
+    // belum ada di system
+    // REGISTRATION_PAGE
+    else if (codeStatus.code == '002') {
+      print(codeStatus);
+      await DialogRegister().show(context);
+      // moving page
+      Navigators().toRegisterPage(userData, context);
+    } else {
+      print(codeStatus);
+      setState(() {});
+    }
+  }
+
+// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\   HTTP Request   ////////////////////////////////
+// Temp codeStatus
+  CodeStatus codeStatus = CodeStatus();
+
+  // Temp response
+  // ignore: prefer_typing_uninitialized_variables
+  var response;
+  Future<void> loginRequest() async {
+    print('CONSOLE masuk loginRequest');
+    try {
+      response = await http.post(
+        Uri.parse('${rootJemaat}masuk'),
+        headers: <String, String>{
+          'Content-Type': 'application/json; charset=UTF-8',
+        },
+        body: jsonEncode(<String, String>{
+          'email': userData.email!,
+        }),
+      );
+    } on Exception catch (e) {
+      print(e);
+    }
+    print('CONSOLE SELESAI FETCH');
+    print(response.body);
+    print('teler');
+    // get Code Status
+    codeStatus.getCodeStatus(response.body);
+    print(codeStatus.code);
+    if (codeStatus.code == '001') {
+      print(codeStatus);
+      userData.GetUserDataFromJSON(response.body);
+    }
+    print("Done");
+  }
+
+  loginGoogle() async {
+    await googleLoginController.login();
+
+    userData.email = googleLoginController.googleAccount.value?.email ?? '';
+    userData.name =
+        googleLoginController.googleAccount.value?.displayName ?? '';
+
+    print(userData.email);
+    print(userData.name);
+    loginOrRegis();
+  }
+
+  loginIOS() {
+    // print('IOS');
+  }
 }

@@ -1,44 +1,71 @@
 // @dart=2.9
-import 'package:gky_cmn/screen/home_page.dart';
+
+import 'package:gky_cmn/dialog-box/@export_dialog_box.dart';
+import 'package:intl/intl.dart';
+import 'package:http/http.dart' as http;
 
 import '../std_lib.dart';
-import 'package:datetime_picker_formfield/datetime_picker_formfield.dart';
-import 'package:intl/intl.dart';
-import 'package:flutter/cupertino.dart';
-import '../register-widgets/export_register_widgets.dart';
-import 'package:validators/validators.dart';
 
 // ignore: use_key_in_widget_constructors
 class RegisterPage extends StatefulWidget {
+  UserData userData;
+
+  RegisterPage({Key key, this.userData}) : super(key: key);
+
   @override
   _RegisterPageState createState() => _RegisterPageState();
 }
 
 class _RegisterPageState extends State<RegisterPage> {
-// Input Controller =================================================
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Input Controller  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   TextEditingController nameController = TextEditingController();
   TextEditingController addressController = TextEditingController();
   TextEditingController phoneController = TextEditingController();
-  // TextEditingController gkyMembership = TextEditingController();
+  TextEditingController gkyMembershipController = TextEditingController();
+  TextEditingController placeOfBirthController = TextEditingController();
 
-// Input Value ===========================================================
-  String nameValue;
-  String addressValue;
-  String phoneValue;
-  DateTime bodValue;
-  String genderValue = 'm';
-  bool isVaccinated = false;
-  String btValue;
-
-// Form Key
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Form Key  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   final formKey = GlobalKey<FormState>();
 
-// Widget Build ===============================================================
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Widget Build  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   @override
   Widget build(BuildContext context) {
-// Constructing widget ==============================================
+//    <<<<<<<<<<<<<<<<<<<<<<<<<  Constructing widget  >>>>>>>>>>>>>>>>>>>>>>>>>
 
-//=================================== Name Input ===========================
+// ====================================  GKY Membership  ============================
+    final gkyMemberShip = Padding(
+      padding: const EdgeInsets.symmetric(vertical: 12.0),
+      child: TextFormField(
+        // Change !!!
+        controller: gkyMembershipController,
+        autofocus: true,
+        autocorrect: true,
+        // Change !!!
+        validator: (value) => isEmpty(value),
+        decoration: InputDecoration(
+          // Change !!!
+          labelText: 'Nomor Anggota GKY',
+          contentPadding: const EdgeInsets.symmetric(vertical: 20),
+          focusColor: Colors.white,
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
+          prefixIcon: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Icon(
+              // Change !!!
+              FontAwesomeIcons.idCard,
+              color: Colors.black,
+              size: 30,
+            ),
+          ),
+          hintStyle: kBodyTextBlack,
+        ),
+        // Change !!!
+        keyboardType: TextInputType.phone,
+        textInputAction: TextInputAction.next,
+      ),
+    );
+
+//===================================  Name Input  ===========================
     final name = Padding(
       padding: const EdgeInsets.symmetric(vertical: 12.0),
       child: TextFormField(
@@ -50,7 +77,7 @@ class _RegisterPageState extends State<RegisterPage> {
         validator: (value) => isEmpty(value),
         decoration: InputDecoration(
           // Change !!!
-          labelText: 'Name',
+          labelText: 'Nama',
           contentPadding: const EdgeInsets.symmetric(vertical: 20),
           focusColor: Colors.white,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
@@ -70,7 +97,8 @@ class _RegisterPageState extends State<RegisterPage> {
         textInputAction: TextInputAction.next,
       ),
     );
-// ========================================= Phone Input ===============================
+
+// =========================================  Phone Input  ===============================
     final phone = Padding(
       padding: const EdgeInsets.symmetric(vertical: 12.0),
       child: TextFormField(
@@ -80,11 +108,11 @@ class _RegisterPageState extends State<RegisterPage> {
         autocorrect: true,
         // Change !!!
         validator: (value) => (value.isEmpty)
-            ? 'Cannot Empty'
-            : (!isNumeric(value) ? 'Invalid Phone Number' : null),
+            ? 'Tidak Boleh Kosong'
+            : (!isNumeric(value) ? 'Nomor Hp Tidak Valid' : null),
         decoration: InputDecoration(
           // Change !!!
-          labelText: 'Phone',
+          labelText: 'No. Telp / WA',
           contentPadding: const EdgeInsets.symmetric(vertical: 20),
           focusColor: Colors.white,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
@@ -105,7 +133,7 @@ class _RegisterPageState extends State<RegisterPage> {
       ),
     );
 
-// ======================================== Address Input ================================
+// ========================================  Address Input  ================================
     final address = Padding(
       padding: const EdgeInsets.symmetric(vertical: 12.0),
       child: TextFormField(
@@ -117,7 +145,7 @@ class _RegisterPageState extends State<RegisterPage> {
         validator: (value) => isEmpty(value.toString()),
         decoration: InputDecoration(
           // Change !!!
-          labelText: 'Address',
+          labelText: 'Tempat Tinggal Sekarang',
           contentPadding: const EdgeInsets.symmetric(vertical: 20),
           focusColor: Colors.white,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
@@ -138,17 +166,50 @@ class _RegisterPageState extends State<RegisterPage> {
       ),
     );
 
-// ============================================= Birthday Input =======================================
+// ===========================================  Place of Birth Input  =======================================
+    final placeOfBirth = Padding(
+      padding: const EdgeInsets.symmetric(vertical: 12.0),
+      child: TextFormField(
+        // Change !!!
+        controller: placeOfBirthController,
+        autofocus: true,
+        autocorrect: true,
+        // Change !!!
+        validator: (value) => isEmpty(value.toString()),
+        decoration: InputDecoration(
+          // Change !!!
+          labelText: 'Tempat Lahir',
+          contentPadding: const EdgeInsets.symmetric(vertical: 20),
+          focusColor: Colors.white,
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
+          prefixIcon: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Icon(
+              // Change !!!
+              FontAwesomeIcons.mapMarkedAlt,
+              color: Colors.black,
+              size: 30,
+            ),
+          ),
+          hintStyle: kBodyTextBlack,
+        ),
+        // Change !!!
+        keyboardType: TextInputType.name,
+        textInputAction: TextInputAction.next,
+      ),
+    );
+
+// =============================================  Birthday Input  =======================================
     final bod = Padding(
       padding: const EdgeInsets.symmetric(vertical: 12.0),
       child: DateTimeField(
         format: DateFormat('dd MMMM yyyy'),
         validator: (date) {
           if (date == null) {
-            bodValue = date;
+            widget.userData.bod = date;
             return 'Cannot Empty';
           } else {
-            bodValue = date;
+            widget.userData.bod = date;
             return null;
           }
         },
@@ -161,7 +222,7 @@ class _RegisterPageState extends State<RegisterPage> {
         },
         decoration: InputDecoration(
           // Change !!!
-          labelText: 'Birth Day',
+          labelText: 'Tanggal Lahir',
           contentPadding: const EdgeInsets.symmetric(vertical: 20),
           focusColor: Colors.white,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
@@ -179,7 +240,7 @@ class _RegisterPageState extends State<RegisterPage> {
       ),
     );
 
-// ================================================== Blood Type Input ===============================================
+// ==================================================  Blood Type Input  ===============================================
     final bloodType = Padding(
         padding: const EdgeInsets.symmetric(vertical: 12.0),
         child: DropdownButtonFormField<String>(
@@ -200,13 +261,13 @@ class _RegisterPageState extends State<RegisterPage> {
           }).toList(),
           onChanged: (String value) {
             setState(() {
-              btValue = value;
+              widget.userData.bloodType = value;
             });
           },
           validator: (String value) => isEmpty(value),
           decoration: InputDecoration(
             // Change !!!
-            labelText: 'Blood Type',
+            labelText: 'Golongan Darah',
             contentPadding: const EdgeInsets.symmetric(vertical: 20),
             focusColor: Colors.white,
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
@@ -222,8 +283,7 @@ class _RegisterPageState extends State<RegisterPage> {
           ),
         ));
 
-// ================================================== Gender Input ===============================================
-
+// ==================================================  Gender Input  ===============================================
     final gender = Row(
       // ignore: prefer_const_literals_to_create_immutables
       children: [
@@ -233,67 +293,72 @@ class _RegisterPageState extends State<RegisterPage> {
           horizontalPadding: 20,
           color: Colors.black,
         ),
-        const Text('Gender', style: kBodyTextBlack),
-        const SizedBox(
-          width: 20,
-        ),
+        const Text('Jenis Kelamin', style: kBodyTextBlack),
         Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 5),
-              child: Radio<String>(
-                value: 'm',
-                groupValue: genderValue,
-                activeColor: Colors.lightBlue,
-                onChanged: (String value) {
-                  setState(() {
-                    genderValue = value;
-                  });
-                },
-              ),
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.only(left: 5),
+                  child: Radio<String>(
+                    value: 'm',
+                    groupValue: widget.userData.gender,
+                    activeColor: Colors.lightBlue,
+                    onChanged: (String value) {
+                      setState(() {
+                        widget.userData.gender = value;
+                      });
+                    },
+                  ),
+                ),
+                const getIcon(
+                  icon: FontAwesomeIcons.male,
+                  horizontalPadding: 0,
+                  color: Colors.lightBlue,
+                ),
+              ],
             ),
-            const getIcon(
-              icon: FontAwesomeIcons.male,
-              horizontalPadding: 0,
-              color: Colors.lightBlue,
-            ),
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 5),
-              child: Radio<String>(
-                value: 'f',
-                groupValue: genderValue,
-                activeColor: Colors.pink,
-                onChanged: (String value) {
-                  setState(() {
-                    genderValue = value;
-                  });
-                },
-              ),
-            ),
-            const getIcon(
-              icon: FontAwesomeIcons.female,
-              horizontalPadding: 0,
-              color: Colors.pink,
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.only(left: 5),
+                  child: Radio<String>(
+                    value: 'f',
+                    groupValue: widget.userData.gender,
+                    activeColor: Colors.pink,
+                    onChanged: (String value) {
+                      setState(() {
+                        widget.userData.gender = value;
+                      });
+                    },
+                  ),
+                ),
+                const getIcon(
+                  icon: FontAwesomeIcons.female,
+                  horizontalPadding: 0,
+                  color: Colors.pink,
+                ),
+              ],
             ),
           ],
         ),
       ],
     );
 
-// // ================================================== Vacinated Input ===============================================
-    final vacinnated = Row(
+// ==================================================  Marital Status  ====================================================
+    final maritalStatus = Row(
       children: [
         // ignore: prefer_const_constructors
         getIcon(
-            icon: FontAwesomeIcons.syringe,
+            icon: FontAwesomeIcons.ring,
             horizontalPadding: 20,
             color: Colors.black),
         const Text(
-          'Have you been vaccinated?',
+          'Status Menikah',
           style: kBodyTextBlack,
         ),
-        const SizedBox(width: 10),
+        SizedBox(width: displayWidth(context) - 282),
         Theme(
           data: Theme.of(context).copyWith(unselectedWidgetColor: Colors.red),
           child: Transform.scale(
@@ -301,10 +366,10 @@ class _RegisterPageState extends State<RegisterPage> {
             child: Checkbox(
               checkColor: Colors.white,
               activeColor: Colors.green,
-              value: isVaccinated,
+              value: widget.userData.maritalStatus,
               onChanged: (bool value) {
                 setState(() {
-                  isVaccinated = value;
+                  widget.userData.maritalStatus = value;
                 });
               },
             ),
@@ -313,33 +378,71 @@ class _RegisterPageState extends State<RegisterPage> {
       ],
     );
 
+// ==================================================  Vacinated Input  ===============================================
+    final vacinnated = Row(
+      children: [
+        // ignore: prefer_const_constructors
+        getIcon(
+            icon: FontAwesomeIcons.syringe,
+            horizontalPadding: 20,
+            color: Colors.black),
+        const Text(
+          'Pernah vaksin Covid-19?',
+          style: kBodyTextBlack,
+        ),
+        SizedBox(width: displayWidth(context) - 341),
+        Theme(
+          data: Theme.of(context).copyWith(unselectedWidgetColor: Colors.red),
+          child: Transform.scale(
+            scale: 1.5,
+            child: Checkbox(
+              checkColor: Colors.white,
+              activeColor: Colors.green,
+              value: widget.userData.isVaccinated,
+              onChanged: (bool value) {
+                setState(() {
+                  widget.userData.isVaccinated = value;
+                });
+              },
+            ),
+          ),
+        ),
+      ],
+    );
+
+// ====================================================  Divider  ==================================================
     // ignore: prefer_const_constructors
     final separator = Divider(
       color: Colors.black,
       thickness: 2,
     );
 
+// ==================================================  Submit Button ==================================================
     final submitBtn =
-        SubmitButton(buttonText: 'Submit', onclick: () => submit());
+        SubmitButton(buttonText: 'Daftar', onclick: () => submit());
 
     //===================================== Layout ================================
     return Scaffold(
-      appBar:
-          AppBar(title: const Text('Registration'), titleTextStyle: kHeading),
+      appBar: AppBar(title: const Text('Registrasi'), titleTextStyle: kHeading),
       body: Form(
         key: formKey,
         child: ListView(
           shrinkWrap: true,
           padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
           children: [
+            gkyMemberShip,
             name,
             address,
             phone,
+            placeOfBirth,
             bod,
             bloodType,
             gender,
             separator,
+            maritalStatus,
+            separator,
             vacinnated,
+            separator,
             const SizedBox(
               height: 20,
             ),
@@ -350,25 +453,63 @@ class _RegisterPageState extends State<RegisterPage> {
     );
   }
 
+// {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{   VALIDATOR   }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
   String isEmpty(String val) {
-    return val == null || val.isEmpty ? "Cannot Empty" : null;
+    return val == null || val.isEmpty ? "Tidak Boleh Kosong" : null;
   }
 
-  void submit() => {
-        if (formKey.currentState.validate())
-          {
-            ScaffoldMessenger.of(context)
-                .showSnackBar(const SnackBar(content: Text('Processing Data')))
-          },
-        nameValue = nameController.text,
-        addressValue = addressController.text,
-        phoneValue = phoneController.text,
+// {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{     SUBMISSION     }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+  // Temp userData
+  UserData userData = UserData();
+  // Temp codeStatus
+  CodeStatus codeStatus = CodeStatus();
+  void submit() async {
+    if (formKey.currentState.validate()) {
+      ScaffoldMessenger.of(context)
+          .showSnackBar(const SnackBar(content: Text('Processing Data')));
+      widget.userData.name = nameController.text;
+      widget.userData.address = addressController.text;
+      widget.userData.phoneNumber = phoneController.text;
+      widget.userData.memberShip = gkyMembershipController.text;
+      widget.userData.placeOfBirth = placeOfBirthController.text;
+      userData = widget.userData;
 
-        // HTTP REQUEST HTTP RESPONSE
+      // print('CONSOLE');
+      // print(userData.gender);
+      // print(userData.isVaccinated);
+      // print(userData.email);
+      // print(userData.name);
 
-        Navigator.pushAndRemoveUntil(
-            context,
-            MaterialPageRoute(builder: (context) => HomePage()),
-            ModalRoute.withName('/loginPage'))
-      };
+      // HTTP REQUEST HTTP RESPONSE
+      codeStatus = await registerRequest(userData);
+
+      if (codeStatus.code == '001') {
+        Navigators().toHomePage(userData, context);
+      } else {
+        DialogError().show(codeStatus, context);
+        Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (BuildContext context) => super.widget));
+      }
+    }
+  }
+
+  // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\   HTTP Request   ////////////////////////////////
+  // Temp response
+  var response;
+  Future<CodeStatus> registerRequest(UserData userData) async {
+    try {
+      response = await http.post(
+        Uri.parse('${rootJemaat}daftar'),
+        headers: <String, String>{
+          'Content-Type': 'application/json; charset=UTF-8',
+        },
+        body: userData.UserDataToJSON(),
+      );
+    } on Exception catch (e) {
+      print(e);
+    }
+    // get Code Status
+    codeStatus.getCodeStatus(response.body);
+    return codeStatus;
+  }
 }
